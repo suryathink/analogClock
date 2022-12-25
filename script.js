@@ -22,7 +22,7 @@ function currentTime(){
 
     secondhand.style.transform = 'rotate(' + (second * timeInterval) + 'deg)'
     minutehand.style.transform = 'rotate(' + (minute * timeInterval + second/10) + 'deg)'
-    hourhand.style.transform = 'rotate(' + (hour *30 + minute / 2) + 'deg)'
+    hourhand.style.transform = 'rotate(' + (hour * 30 + minute / 2 ) + 'deg)'
 
 
 }

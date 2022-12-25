@@ -8,12 +8,27 @@ body {
   background-color: rgb(44, 44, 44);
 }
 
+/* .intro{
+  display: flex;
+  align-items: center;
+} */
+
 .clock {
   position: absolute;
   height: 300px;
   width: 300px;
   border-radius: 150px;
   border: solid yellow;
+}
+
+#center{
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: rgb(252, 255, 55);
+  position: absolute;
+  left: 145px;
+  bottom: 145px;
 }
 #second-hand {
   position: absolute;
@@ -47,3 +62,5 @@ body {
   /* opacity: 50%; */
   transform-origin: 0% 100%;
 }
+
+
