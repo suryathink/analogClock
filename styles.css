@@ -8,10 +8,16 @@ body {
   background-color: rgb(44, 44, 44);
 }
 
-/* .intro{
-  display: flex;
-  align-items: center;
-} */
+ #intro{
+  position: fixed;
+  margin-bottom:40%;
+  color: white;
+} 
+#intro a{
+  /* text-decoration: none; */
+  color: aqua;
+}
+
 
 .clock {
   position: absolute;
@@ -57,8 +63,8 @@ body {
   height: 80px;
   width: 4px;
   background-color: rgb(205, 112, 225);
-  left: 153px;
-  bottom: 148px;
+  right: 148px;
+  bottom: 151px;
   /* opacity: 50%; */
   transform-origin: 0% 100%;
 }
